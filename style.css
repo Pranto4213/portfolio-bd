@@ -123,3 +123,41 @@ margin-top: 130px;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 5px;
 margin-top: 40px;}
+
+/* resume style */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.experience-sub-titel{font-size:20px; font-weight: 600;
+margin-bottom: 20px;
+}
+
+.experience-descreption, .experience-sub-titel{
+    color: #757575;
+}
+
+.resume hr{margin: 30px 5px;}
+
+.resume-downlode-CV{margin-top: 50px;}
+.aro{height: 10px;width: 10px;background-size: cover;}
+
+/* fotter style */
+
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap:100px;
+}
+
+.footer-column{width: 50%;}
+
+footer input[type="text"]{height: 64px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: block;
+    width: 100%;
+    padding:5px 10px ;
+    margin-bottom: 10px;
+}
